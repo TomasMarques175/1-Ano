@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616407522 source:/media/sf_Repository/Prog1/Pratica2/Ex2/main.c
+	<stdio.h>
+	<stdlib.h>
+

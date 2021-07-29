@@ -1,0 +1,75 @@
+{
+	"folders": [
+		{
+			"path": "Pratica4"
+		},
+		{
+			"path": "ProjetoFinal"
+		},
+		{
+			"path": "Projeto Intermedio"
+		},
+		{
+			"path": "Lab4"
+		},
+		{
+			"path": "Pratica5"
+		},
+		{
+			"path": "Aulas Teoricas"
+		},
+		{
+			"path": "Ficheiros de teste"
+		},
+		{
+			"path": "Pratica6"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"float.h": "c",
+			"stdlib.h": "c",
+			"array": "c",
+			"string": "c",
+			"string_view": "c",
+			"ranges": "c",
+			"span": "c",
+			"pandemia.h": "c",
+			"chrono": "c",
+			"random": "c",
+			"limits": "c",
+			"valarray": "c",
+			"covid19.h": "c",
+			"sstream": "c",
+			"regex": "c",
+			"math.h": "c"
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			{
+				"name": "gcc.exe - Build and debug active file",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"args": [],
+				"stopAtEntry": false,
+				"cwd": "${workspaceFolder}",
+				"environment": [],
+				"externalConsole": false,
+				"MIMode": "gdb",
+				"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+				"setupCommands": [
+					{
+						"description": "Enable pretty-printing for gdb",
+						"text": "-enable-pretty-printing",
+						"ignoreFailures": true
+					}
+				],
+				"preLaunchTask": "C/C++: gcc.exe build active file"
+			}
+		]
+	}
+}
